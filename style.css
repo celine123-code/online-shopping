@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: black;
+    height: 80px;
+    width:100%;
+}
+img{
+    width: 80px;  
+    height: 80px; 
+   }
+label.logo{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    padding:0 100px;
+    line-height: 80px;
+}
+nav ul{
+    float:right;
+    margin-right: 30%;
+   
+}
+.home{
+    /* margin-right:10%; */
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background:#1b9bff ;
+    transition: .5s;
+}
+
+
+.combine{
+    display: flex;
+    gap: 100px;
+}
+.collection{
+    background-image: url(./images/rings.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.collection h1{
+    padding-top: 250px;
+    margin-left: 5%;
+}
+
+.collection h2{
+    margin-left: 5%;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 5px;
+    margin-top: 15px;
+
+}
+.collection p{
+    margin-left: 5%;
+    font-size: 18px;
+    margin-top: 15px;
+    /* margin: 10px; */
+}
+
+.collection button{
+    margin-left: 5%;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+}
