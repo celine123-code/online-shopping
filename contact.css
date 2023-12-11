@@ -1,0 +1,149 @@
+*{padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    .body{
+        background-image: url(./images/rings.jpg);
+        background-size: cover;
+        height: 95vh;
+    }
+  
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: montserrat;
+    }
+    nav{
+        background: #889eae;
+        height: 80px;
+        width:100%;
+    }
+    label.logo{
+        color:white;
+        font-size: 35px;
+        font-weight: bold;
+        padding:0 100px;
+        line-height: 80px;
+    }
+    nav ul{
+        float:right;
+        margin-right: 30%;
+       
+    }
+    .home{
+        /* margin-right:10%; */
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    nav ul li a{
+        color:white;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    a.active, a:hover{
+        background:#1b9bff ;
+        transition: .5s;
+    }
+    
+    
+    .combine{
+        display: flex;
+        gap: 100px;
+    }
+    .collection{
+        background-image: url(./images/rings.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 700px;
+    }
+.Reach{
+
+    margin-top: -500px;
+}
+  
+    .menu{
+        margin-left: 40px;
+        padding-top: 20px;
+    }
+    
+    
+    img{
+        height: 40px;
+        width: 40px;
+    }
+    img{
+        width: 80px;  
+        height: 80px; 
+       }
+  
+    .menu{
+        /* background-color:pink ; */
+    }
+    button{
+    border-radius:10px; 
+        height:30px ;
+        font-weight: bolder;
+        background-color:black;
+        color:black ;
+        /* padding-right: 10px; */
+        
+    }
+    .paragraph{
+        /* background-color: olivedrab; */
+        color:black;
+    
+    }
+    .paragraph img{
+        height: 700px;
+        width: 700px;
+        border-radius:50px ;
+    }
+    .container{
+        /* background-color: white; */
+        display: flex;
+    }
+    .input{
+        padding: 0px 100px 100px 0px;
+    }
+    .menu2{
+        color: black;
+        margin-left: 1000px;
+        margin-top: -300px;
+    
+    }
+    .request h1{
+        color:black ;
+        size: 20px;
+        
+    }
+    .ORDER{
+        color: black;
+        size:20px ;
+    }
+    .send{
+        border-radius: 120px;
+        margin-left: 140px;
+        margin-top:20px ;
+        
+    }
+    
+    .btn button{
+        padding: 10px;
+        border-radius:20px ;
+    }
+    .sed button{
+    margin-left: 10px;
+    border-radius: 150px;
+    background-color: grey;
+    padding: 6px 20px;
+    font-size: 15px;
+    }
